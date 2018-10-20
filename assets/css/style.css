@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/wood_texture.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html {
+    align-content: center;
+}
+h1, h2, p, h4 {
+    color: rgb(73, 39, 20);
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+.content {
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+    
+}
+button {
+    margin-left: 440px;
+    padding: 12px;
+    color: rgb(73, 39, 20);
+    background-color: rgb(199, 182, 156);
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+.column {
+    float: left;
+    width: 49%;
+    height: 150px;
+}
+.column_2 {
+    width: 49%;
+    height: 50px;
+    float: left;
+}
+.column_3 {
+    width: 32%;
+    height: 50px;
+    float: left;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+

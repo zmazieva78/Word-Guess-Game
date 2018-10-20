@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Word Guess Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css"  href="/assets/css/reset.css">
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body id="body">
+
+    <div class="content">
+        <div class="row">
+            <header>
+                <h1>Word Guess Game</h1>
+            </header>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <h2>Rules:</h2>
+            </div>
+
+            <div class="column">
+                <h4>This is Word Guessing Game. Rules are: pick a letter to solve the word, you have only 10 wrong attempts. Also "start button" changes to "give up button" as soon you start the game, if you think it is hard to solve the word or you want to start from the begining, just press "give up button". Good Luck!</h4>
+            </div>
+        </div>
+
+
+        <button id="startButton" onclick="startGame()">Start Game</button>
+
+
+        <div class="row">
+            <div class="column_2">
+                <h2>Word:</h2>
+
+            </div>
+            <div class="column_2">
+                <p id="hiddenWord"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column_2">
+                <h2>Guessed Letters:</h2>
+            </div>
+            <div class="column_2">
+                <p id="lettersPressed"></p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column_3">
+                <h2>Wins:</h2>
+                <p id="wins">0</p>
+            </div>
+            <div class="column_3">
+                <h2>Losses:</h2>
+                <p id="losses">0</p>
+            </div>
+            <div class="column_3">
+                <h2>Attempts left:</h2>
+                <p id="attemptsLeft">10</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
